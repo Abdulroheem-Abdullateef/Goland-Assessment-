@@ -1,0 +1,6 @@
+@Golang_Assestment_Text_HostAddress = http://localhost:5265
+
+GET {{Golang_Assestment_Text_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

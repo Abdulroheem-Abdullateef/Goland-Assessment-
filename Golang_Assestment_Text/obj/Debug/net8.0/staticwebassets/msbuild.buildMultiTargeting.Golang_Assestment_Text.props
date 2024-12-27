@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Golang_Assestment_Text.props" />
+</Project>

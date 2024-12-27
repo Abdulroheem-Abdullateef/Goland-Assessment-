@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golang_Assestment_Text", "Golang_Assestment_Text\Golang_Assestment_Text.csproj", "{39D08B82-0AFC-4D80-B948-5552D91BF165}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D08B82-0AFC-4D80-B948-5552D91BF165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D08B82-0AFC-4D80-B948-5552D91BF165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D08B82-0AFC-4D80-B948-5552D91BF165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D08B82-0AFC-4D80-B948-5552D91BF165}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3730059A-1A52-4E65-9550-CDE415CD0272}
+	EndGlobalSection
+EndGlobal

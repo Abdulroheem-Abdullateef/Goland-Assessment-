@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Golang_Assestment_Text.props" />
+</Project>
