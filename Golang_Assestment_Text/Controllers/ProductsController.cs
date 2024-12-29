@@ -1,68 +1,74 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
+[Authorize(Roles = "Admin")]
+[ApiController]
+[Route("api/[controller]")]
+public class ProductsController : ControllerBase
+{
+    private readonly ECommerceDbContext _context;
 
-    [Authorize]
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductsController : ControllerBase
+    public ProductsController(ECommerceDbContext context)
     {
-        private readonly ProductService _productService;
-
-        public ProductsController(ProductService productService)
-        {
-            _productService = productService;
-        }
-
-        [HttpGet]
-        public IActionResult GetProducts()
-        {
-            var products = _productService.GetAllProducts();
-            return Ok(products);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult GetProduct(int id)
-        {
-            var product = _productService.GetProductById(id);
-            if (product == null)
-            {
-                return NotFound("Product not found.");
-            }
-            return Ok(product);
-        }
-
-        [HttpPost]
-        public IActionResult AddProduct([FromBody] Product product)
-        {
-            var result = _productService.AddProduct(product);
-            if (result == "Product with the same name already exists.")
-            {
-                return BadRequest(result);
-            }
-            return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult UpdateProduct(int id, [FromBody] Product product)
-        {
-            var result = _productService.UpdateProduct(id, product);
-            if (result == "Product not found.")
-            {
-                return NotFound(result);
-            }
-            return Ok(result);
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult DeleteProduct(int id)
-        {
-            var result = _productService.DeleteProduct(id);
-            if (result == "Product not found.")
-            {
-                return NotFound(result);
-            }
-            return Ok(result);
-        }
+        _context = context;
     }
 
+    // GET: api/products
+    [AllowAnonymous]
+    [HttpGet]
+    public async Task<IActionResult> GetProducts()
+    {
+        return Ok(await _context.Products.ToListAsync());
+    }
+
+    // POST: api/products
+    [HttpPost]
+    public async Task<IActionResult> CreateProduct(Product product)
+    {
+        _context.Products.Add(product);
+        await _context.SaveChangesAsync();
+        return CreatedAtAction(nameof(GetProducts), new { id = product.Id }, product);
+    }
+
+    // PUT: api/products/{id}
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateProduct(int id, Product product)
+    {
+        if (id != product.Id)
+            return BadRequest("Product ID mismatch.");
+
+        _context.Entry(product).State = EntityState.Modified;
+
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!ProductExists(id))
+                return NotFound("Product not found.");
+            throw;
+        }
+
+        return NoContent();
+    }
+
+    // DELETE: api/products/{id}
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteProduct(int id)
+    {
+        var product = await _context.Products.FindAsync(id);
+        if (product == null)
+            return NotFound("Product not found.");
+
+        _context.Products.Remove(product);
+        await _context.SaveChangesAsync();
+        return NoContent();
+    }
+
+    private bool ProductExists(int id)
+    {
+        return _context.Products.Any(e => e.Id == id);
+    }
+}

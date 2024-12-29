@@ -1,53 +1,22 @@
-﻿public class ProductService
+﻿using Golang_Assestment_Text.Interface.Service;
+
+public class ProductService : IProductService
 {
-    private readonly List<Product> _products = new();
+    private readonly IProductRepository _productRepository;
 
-    public IEnumerable<Product> GetAllProducts()
+    public ProductService(IProductRepository productRepository)
     {
-        return _products;
+        _productRepository = productRepository;
     }
 
-    public Product GetProductById(int id)
-    {
-        return _products.FirstOrDefault(p => p.Id == id);
-    }
+    public Task<List<Product>> GetAllProductsAsync() => _productRepository.GetAllProductsAsync();
 
-    public string AddProduct(Product product)
-    {
-        if (_products.Any(p => p.Name == product.Name))
-        {
-            return "Product with the same name already exists.";
-        }
+    public Task<Product> GetProductByIdAsync(int id) => _productRepository.GetProductByIdAsync(id);
 
-        _products.Add(product);
-        return "Product added successfully.";
-    }
+    public Task AddProductAsync(Product product) => _productRepository.AddProductAsync(product);
 
-    public string UpdateProduct(int id, Product updatedProduct)
-    {
-        var product = _products.FirstOrDefault(p => p.Id == id);
-        if (product == null)
-        {
-            return "Product not found.";
-        }
+    public Task UpdateProductAsync(Product product) => _productRepository.UpdateProductAsync(product);
 
-        product.Name = updatedProduct.Name;
-        product.Price = updatedProduct.Price;
-        product.Stock = updatedProduct.Stock;
-
-        return "Product updated successfully.";
-    }
-
-    public string DeleteProduct(int id)
-    {
-        var product = _products.FirstOrDefault(p => p.Id == id);
-        if (product == null)
-        {
-            return "Product not found.";
-        }
-
-        _products.Remove(product);
-        return "Product deleted successfully.";
-    }
+    public Task DeleteProductAsync(int id) => _productRepository.DeleteProductAsync(id);
 
 }

@@ -1,98 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\",
+  "WorkspaceRootPath": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\interface\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\interface\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\interface\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\authentication\\jwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\authentication\\jwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\migrations\\20241229161803_goland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\migrations\\20241229161803_goland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\golang_assestment_text.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\golang_assestment_text.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\implementation\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\context\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\context\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\implementation\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\implementation\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\interface\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\interface\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\interface\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\interface\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\implementation\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\implementation\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\source\\repos\\golang_assestment_text\\golang_assestment_text\\implementation\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\interface\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\context\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\context\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\interface\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\interface\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\interface\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\implementation\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\implementation\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\implementation\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\implementation\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\implementation\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\implementation\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\authentication\\jwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\authentication\\jwtauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\golang_assestment_text.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\golang_assestment_text.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|c:\\users\\abdullateef\\desktop\\golang_assestment_text\\golang_assestment_text\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D08B82-0AFC-4D80-B948-5552D91BF165}|Golang_Assestment_Text\\Golang_Assestment_Text.csproj|solutionrelative:golang_assestment_text\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,76 +134,310 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Golang_Assestment_Text",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
-              "RelativeToolTip": "Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-27T20:35:28.333Z",
+              "DocumentIndex": 4,
+              "Title": "20241229161803_Goland.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Migrations\\20241229161803_Goland.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Migrations\\20241229161803_Goland.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Migrations\\20241229161803_Goland.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Migrations\\20241229161803_Goland.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:18:03.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:06:02.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Program.cs",
               "RelativeDocumentMoniker": "Golang_Assestment_Text\\Program.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Program.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Program.cs",
               "RelativeToolTip": "Golang_Assestment_Text\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAABoAAADAmJmZmdkowDAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T20:02:03.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.json",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\appsettings.json",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.json",
-              "RelativeToolTip": "Golang_Assestment_Text\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-27T20:02:09.141Z",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Repository\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\IOrderRepository.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Repository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:17:11.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAUAAAAA/f///78twCIAAAANAAAA",
+              "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Repository\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:17:50.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAYAAAAIAAAAAAA9wAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T15:36:51.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAADkAAACgzMzMzMwMwEkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:09:36.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA0AAABgMzMzM7M2wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T20:05:55.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtAuth.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 10,
+              "Title": "ECommerceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
+              "ViewState": "AQIAAAUAAAAANDMzMzPjvwUAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:02:54.059Z",
+              "WhenOpened": "2024-12-27T20:06:08.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:16:45.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\IProductService.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Service\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\IProductService.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Service\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:19:11.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\IUserService.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Service\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T15:49:35.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Service\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\IOrderService.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Service\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAMzMzMzMrwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:18:01.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\UserService.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Service\\UserService.cs",
+              "ViewState": "AQIAABAAAAAAyszMzMz8vx0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:15:41.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
+              "ViewState": "AQIAABMAAADAMjMzMzMXwBIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:16:35.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T15:43:17.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAABkAAAAAZGZmZmYLwCkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:15:07.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAQAAAAgmZmZmZklwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:14:33.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\User.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\User.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAABAPQcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:06:42.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\OrderProduct.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\OrderProduct.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\OrderProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T15:16:43.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Order.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:06:40.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Product.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:06:41.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Golang_Assestment_Text.csproj",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
+              "RelativeToolTip": "Golang_Assestment_Text\\Golang_Assestment_Text.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-27T20:35:28.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Golang_Assestment_Text\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.Development.json",
               "RelativeToolTip": "Golang_Assestment_Text\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -192,37 +446,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ECommerceDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Context\\ECommerceDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "DocumentIndex": 24,
+              "Title": "JwtAuth.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
+              "RelativeToolTip": "Golang_Assestment_Text\\Authentication\\JwtAuth.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAhwBEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:06:08.184Z",
+              "WhenOpened": "2024-12-27T20:02:54.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Service\\OrderService.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAMwFAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:16:35.938Z",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.json",
+              "RelativeDocumentMoniker": "Golang_Assestment_Text\\appsettings.json",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\appsettings.json",
+              "RelativeToolTip": "Golang_Assestment_Text\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T20:02:09.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,184 +485,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ABDULLATEEF\\Desktop\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAUAAAB4mZmZmTk4wBsAAAAiAAAA",
+              "ViewState": "AQIAAAYAAADgZWZmZuYcwBsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T20:05:58.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\User.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:06:42.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Product.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:06:41.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Entities\\Order.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Entities\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:06:40.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\Repository.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Repository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:15:07.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:09:36.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:06:02.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:14:33.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Repository\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Repository\\OrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:17:11.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Repository\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:17:50.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\OrderService.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Service\\OrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:18:01.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Interface\\Service\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Interface\\Service\\ProductService.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Interface\\Service\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:19:11.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Service\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:16:45.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "Golang_Assestment_Text\\Implementation\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\ABDULLATEEF\\source\\repos\\Golang_Assestment_Text\\Golang_Assestment_Text\\Implementation\\Service\\AuthService.cs",
-              "RelativeToolTip": "Golang_Assestment_Text\\Implementation\\Service\\AuthService.cs",
-              "ViewState": "AQIAABAAAAAA/P////8fwCQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T20:15:41.47Z",
               "EditorCaption": ""
             }
           ]

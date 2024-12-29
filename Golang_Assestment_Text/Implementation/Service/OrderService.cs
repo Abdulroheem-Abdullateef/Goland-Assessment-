@@ -1,81 +1,41 @@
-﻿public class OrderService
+﻿using Golang_Assestment_Text.Entities;
+using Golang_Assestment_Text.Interface.Service;
+
+public class OrderService : IOrderService
 {
-    private readonly List<Order> _orders = new();
-    private readonly ProductService _productService;
+    private readonly IOrderRepository _orderRepository;
 
-    public OrderService(ProductService productService)
+    public OrderService(IOrderRepository orderRepository)
     {
-        _productService = productService;
+        _orderRepository = orderRepository;
     }
 
-    public string PlaceOrder(Order order)
+    public Task<List<Order>> GetOrdersByUserIdAsync(int userId) => _orderRepository.GetOrdersByUserIdAsync(userId);
+
+    public async Task PlaceOrderAsync(int userId, List<OrderProduct> products)
     {
-        // Validate products
-        foreach (var product in order.Products)
+        var order = new Order
         {
-            var existingProduct = _productService.GetProductById(product.Id);
-            if (existingProduct == null)
+            UserId = userId,
+            OrderDate = DateTime.UtcNow,
+            Status = "Pending",
+            OrderProducts = products.Select(p => new OrderProduct
             {
-                return $"Product with ID {product.Id} does not exist.";
-            }
+                ProductId = p.ProductId,
+                Quantity = p.Quantity
+            }).ToList()
+        };
 
-            if (existingProduct.Stock < 1)
-            {
-                return $"Product {existingProduct.Name} is out of stock.";
-            }
-
-            // Reduce stock
-            existingProduct.Stock -= 1;
-        }
-
-        order.OrderDate = DateTime.Now;
-        order.Status = "Pending";
-        _orders.Add(order);
-
-        return "Order placed successfully.";
+        await _orderRepository.AddOrderAsync(order);
     }
 
-    public IEnumerable<Order> GetOrdersForUser(int userId)
+    public async Task UpdateOrderStatusAsync(int orderId, string status)
     {
-        return _orders.Where(o => o.UserId == userId);
-    }
-
-    public string UpdateOrderStatus(int orderId, string status)
-    {
-        var order = _orders.FirstOrDefault(o => o.Id == orderId);
+        var order = await _orderRepository.GetOrderByIdAsync(orderId);
         if (order == null)
-        {
-            return "Order not found.";
-        }
+            throw new ArgumentException("Order not found.");
 
         order.Status = status;
-        return "Order status updated successfully.";
-    }
-
-    public string CancelOrder(int orderId)
-    {
-        var order = _orders.FirstOrDefault(o => o.Id == orderId);
-        if (order == null)
-        {
-            return "Order not found.";
-        }
-
-        if (order.Status != "Pending")
-        {
-            return "Order cannot be canceled. Only pending orders can be canceled.";
-        }
-
-        // Return stock to inventory
-        foreach (var product in order.Products)
-        {
-            var existingProduct = _productService.GetProductById(product.Id);
-            if (existingProduct != null)
-            {
-                existingProduct.Stock += 1;
-            }
-        }
-
-        order.Status = "Canceled";
-        return "Order canceled successfully.";
+        await _orderRepository.UpdateOrderAsync(order);
     }
 }

@@ -1,62 +1,89 @@
-﻿
-
+﻿using Golang_Assestment_Text.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 [Authorize]
-    [ApiController]
-    [Route("api/[controller]")]
-    public class OrdersController : ControllerBase
+[ApiController]
+[Route("api/[controller]")]
+public class OrdersController : ControllerBase
+{
+    private readonly ECommerceDbContext _context;
+
+    public OrdersController(ECommerceDbContext context)
     {
-        private readonly OrderService _orderService;
-
-        public OrdersController(OrderService orderService)
-        {
-            _orderService = orderService;
-        }
-
-        [HttpPost]
-        public IActionResult PlaceOrder([FromBody] Order order)
-        {
-            var result = _orderService.PlaceOrder(order);
-            if (result.Contains("does not exist") || result.Contains("out of stock"))
-            {
-                return BadRequest(result);
-            }
-            return Ok(result);
-        }
-
-        [HttpGet("{userId}")]
-        public IActionResult GetOrders(int userId)
-        {
-            var orders = _orderService.GetOrdersForUser(userId);
-            if (!orders.Any())
-            {
-                return NotFound("No orders found for the user.");
-            }
-            return Ok(orders);
-        }
-
-        [HttpPut("{orderId}/status")]
-        public IActionResult UpdateOrderStatus(int orderId, [FromQuery] string status)
-        {
-            var result = _orderService.UpdateOrderStatus(orderId, status);
-            if (result == "Order not found.")
-            {
-                return NotFound(result);
-            }
-            return Ok(result);
-        }
-
-        [HttpDelete("{orderId}")]
-        public IActionResult CancelOrder(int orderId)
-        {
-            var result = _orderService.CancelOrder(orderId);
-            if (result == "Order not found." || result == "Order cannot be canceled. Only pending orders can be canceled.")
-            {
-                return BadRequest(result);
-            }
-            return Ok(result);
-        }
+        _context = context;
     }
 
+    // GET: api/orders
+    [HttpGet]
+    public async Task<IActionResult> GetUserOrders()
+    {
+        var email = User.FindFirstValue(ClaimTypes.Email);
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        if (user == null)
+            return Unauthorized();
+
+        var orders = await _context.Orders
+            .Where(o => o.UserId == user.Id)
+            .Include(o => o.OrderProducts)
+            .ThenInclude(op => op.Product)
+            .ToListAsync();
+
+        return Ok(orders);
+    }
+
+    // POST: api/orders
+    [HttpPost]
+    public async Task<IActionResult> PlaceOrder(OrderDto orderDto)
+    {
+        var email = User.FindFirstValue(ClaimTypes.Email);
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        if (user == null)
+            return Unauthorized();
+
+        var order = new Order
+        {
+            UserId = user.Id,
+            OrderDate = DateTime.UtcNow,
+            Status = "Pending",
+            OrderProducts = orderDto.Products.Select(p => new OrderProduct
+            {
+                ProductId = p.ProductId,
+                Quantity = p.Quantity
+            }).ToList()
+        };
+
+        _context.Orders.Add(order);
+        await _context.SaveChangesAsync();
+
+        return Ok(order);
+    }
+
+    // PUT: api/orders/{id}/status
+    [Authorize(Roles = "Admin")]
+    [HttpPut("{id}/status")]
+    public async Task<IActionResult> UpdateOrderStatus(int id, string status)
+    {
+        var order = await _context.Orders.FindAsync(id);
+        if (order == null)
+            return NotFound("Order not found.");
+
+        order.Status = status;
+        await _context.SaveChangesAsync();
+        return NoContent();
+    }
+}
+
+// DTO for Order
+public class OrderDto
+{
+    public List<OrderItemDto> Products { get; set; }
+}
+
+public class OrderItemDto
+{
+    public int ProductId { get; set; }
+    public int Quantity { get; set; }
+}
